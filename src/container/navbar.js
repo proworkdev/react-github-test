@@ -9,9 +9,10 @@ const Header = (props) => {
             dark
             expand="md"
             style={styles.navBar}>
+            <div style={{width:20}}>
             {match.path !== '/'?<Link to="/">Back</Link>:null}
-            <h3
-                style={styles.title}>Home</h3>
+            </div>
+            <h3 style={styles.title}>Home</h3>
         </Navbar>
     );
 }
