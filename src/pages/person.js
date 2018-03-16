@@ -23,7 +23,7 @@ class Person extends Component {
             <div style={{paddingTop:10}}>
             {Object.keys(person).length > 0?
             <Card style={{textAlign:'center'}}>
-            <CardImg top height="200px" style={styles.card} src={person.avatar_url} alt="Card image cap" />
+            <CardImg top height="" style={styles.card} src={person.avatar_url} alt="Card image cap" />
             <CardBody>
             <CardTitle>{person.name}</CardTitle>
             <CardSubtitle>{person.company}</CardSubtitle>
